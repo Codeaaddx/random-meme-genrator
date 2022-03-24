@@ -1,0 +1,59 @@
+body{
+    background-color: #f5f5dc;
+}
+
+
+h1{
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    text-transform: capitalize;
+    
+}
+
+
+.box {
+    display: block;
+    width: 50%;
+    border: 20px solid pink;
+    padding: 50px;
+    margin: auto;
+
+}
+
+#quoteDisplay {
+
+    quotes: "'\201C' '\201D'";
+ }
+ 
+ #quoteDisplay::before {
+     content: open-quote;
+ }
+ 
+ #quoteDisplay::after {
+     content: close-quote;
+ }
+
+
+
+
+#prevQuote {
+display: none;
+margin: 10px auto;
+background-color: pink;
+border-radius: 25px;
+
+}
+
+
+#getQuote {
+    display : inline-block;
+    margin : 10px auto;
+    background-color: pink;
+    border-radius: 25px;
+}
+
+div {
+    text-align: center;
+}
+
